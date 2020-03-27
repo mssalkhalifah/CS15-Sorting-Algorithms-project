@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="InsertionSortTest" time="2.606" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="InsertionSortTest" time="2.201" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.3+12-b304.39"/>
+    <property name="java.vm.version" value="11.0.6+8-b520.43"/>
     <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\jbr\bin"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\moham\OneDrive\Documents\my projects\CS15 Sorting Algorithms"/>
     <property name="java.vm.vendor" value="JetBrains s.r.o"/>
@@ -17,7 +17,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\moham\OneDrive\Documents\my projects\CS15 Sorting Algorithms"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="11.0.3+12-b304.39"/>
+    <property name="java.runtime.version" value="11.0.6+8-b520.43"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\moham\AppData\Local\Temp\"/>
@@ -35,6 +35,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="idea.version2019.3.4" value="true"/>
     <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\moham"/>
     <property name="user.timezone" value="Asia/Riyadh"/>
@@ -43,25 +44,24 @@
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="moham"/>
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="idea.version2019.2.1" value="true"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.2.1 test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.4 test"/>
     <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\jbr"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="11.0.3"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.6"/>
     <property name="java.vendor" value="JetBrains s.r.o"/>
     <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.version.date" value="2020-01-14"/>
     <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="InsertionSortTest" name="test" time="2.606"/>
+  <testcase classname="InsertionSortTest" name="test" time="2.201"/>
 </testsuite>
