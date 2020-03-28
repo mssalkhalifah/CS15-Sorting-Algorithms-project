@@ -1,5 +1,6 @@
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import java.util.Random;
 
 public class InsertionSortTest {
@@ -13,7 +14,7 @@ public class InsertionSortTest {
                 arr[j] = random.nextInt(101);
             }
             InsertionSort.insertionSort(arr);
-            Assert.assertTrue(isSortedInc(arr));
+            Assertions.assertTrue(isSortedInc(arr));
         }
     }
 

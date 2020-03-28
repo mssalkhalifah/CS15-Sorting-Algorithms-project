@@ -1,5 +1,5 @@
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 
@@ -14,7 +14,7 @@ public class HeapsortTest {
                 arr[j] = random.nextInt(101);
             }
             Heapsort.heapsort(arr);
-            Assert.assertTrue(InsertionSortTest.isSortedInc(arr));
+            Assertions.assertTrue(InsertionSortTest.isSortedInc(arr));
         }
     }
 }
