@@ -5,7 +5,7 @@ import java.util.Random;
 public class RunningTimeTest {
     private static int[] arr1;
     private static int[] arr2;
-    private static final int SIZE = 300;
+    private static final int SIZE = 100000;
 
     @BeforeAll
     public static void initialize() {
