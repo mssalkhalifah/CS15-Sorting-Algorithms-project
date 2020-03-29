@@ -13,7 +13,7 @@ public class RunningTimeTest {
         arr1 = new int[SIZE];
         arr2 = new int[SIZE];
         for (int i = 0; i < arr1.length; i++) {
-            int temp = random.nextInt(101);
+            int temp = random.nextInt(1000000001);
             arr1[i] = temp;
             arr2[i] = temp;
         }
